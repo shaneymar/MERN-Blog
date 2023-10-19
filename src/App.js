@@ -1,16 +1,15 @@
 import './App.css';
+import Header from './Header';
+import Post from './Post';
 
 function App() {
   return (
    <main>
-      <header>
-        <a href="/" className='logo'>My Blog</a>
-        <nav>
-          <a href="/">Login</a>
-          <a href='/'>Register</a>
-        </nav>
-      </header>
-   </main>
+    <Header />
+    <Post />   
+    <Post />   
+    <Post />   
+  </main>
   );
 }
 
